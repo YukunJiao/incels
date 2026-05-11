@@ -19,7 +19,7 @@ For ethical issues, human usernames were anonymized, while [deleted] and bot use
 
 ## Reproduction
 
-First restore the R package environment:
+Open incels.Rproj in RStudio first. Then restore the project environment by running:
 
 ```r
 install.packages("remotes")
