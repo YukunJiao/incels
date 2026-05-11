@@ -22,7 +22,8 @@ For ethical issues, human usernames were anonymized, while [deleted] and bot use
 First restore the R package environment:
 
 ```r
-install.packages("renv")
+install.packages("remotes")
+remotes::install_version("renv", version = "1.1.6")
 renv::restore()
 ```
 
