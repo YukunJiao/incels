@@ -24,6 +24,7 @@ First restore the R package environment:
 ```r
 install.packages("remotes")
 remotes::install_version("renv", version = "1.1.6")
+renv::activate()
 renv::restore()
 ```
 
